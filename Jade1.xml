@@ -30,7 +30,7 @@
         </value>
         <value name="BOTHMOVRIGHT">
           <block type="math_number" id="139">
-            <field name="NUM">79</field>
+            <field name="NUM">10</field>
           </block>
         </value>
       </block>

@@ -33,11 +33,6 @@
             <field name="NUM">79</field>
           </block>
         </value>
-        <next>
-          <block type="comment_comment" id="200">
-            <field name="TEXT">yay</field>
-          </block>
-        </next>
       </block>
     </next>
   </block>

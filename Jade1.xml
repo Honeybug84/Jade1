@@ -38,5 +38,14 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="movement_rightmotor" id="151" inline="true">
+        <value name="MOVRIGHT">
+          <block type="math_number" id="67">
+            <field name="NUM">360</field>
+          </block>
+        </value>
+      </block>
+    </next>
   </block>
 </xml>

@@ -21,5 +21,30 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="controls_repeat" id="28" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="29">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_reverse" id="43">
+            <next>
+              <block type="robot_delay" id="31" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="32">
+                    <field name="NUM">1000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_stop" id="33"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
   </block>
 </xml>

@@ -19,22 +19,4 @@
       </block>
     </statement>
   </block>
-  <block type="movement_stop" id="6" x="319" y="199">
-    <next>
-      <block type="movement_reverse" id="7">
-        <next>
-          <block type="robot_delay" id="8" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="9">
-                <field name="NUM">10000</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_stop" id="10"></block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
 </xml>
